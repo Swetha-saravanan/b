@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>log in</title>
+
+<style>
+    body {
+        background-image: url('bg1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+img {
+    width:40%;
+border-radius:50%;
+margin-bottom: 20px;
+}
+input {
+    width:300px;
+    border-radius: 10px;
+    padding : 10px 10px;
+    margin-bottom:15px;
+}
+button {
+    color:white;
+    background-color: #04AA6D;
+    padding : 10px 10px;
+    width:200px;
+    border:none;
+}
+.login {
+    width :500px;
+    margin-top: 200px;
+
+    padding-top: 10px;
+    margin-right:250px;
+    
+}
+a {
+    text-decoration: none;
+    margin-top: 200px;
+}
+</style>
+</head>
+<body>
+    <center>
+    <div class="login">
+        <h1>LOG IN</h1>
+        <img src="login.jpg" align="center"><br>
+        <form>
+          <table align="center">
+              <tr><th>User name :</th><td><input type="text" placeholder="Enter user name"></td></tr>
+              <tr><th>Password :</th><td><input type="password" placeholder="Enter your password"></td></tr>
+          </table>
+          <button>Login</button><br>
+          <a href="file:///home/swetham/Documents/forget.html">Forget password?</a>
+        
+    </div>
+    </center>
+</body>
+</html>
+
+
